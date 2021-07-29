@@ -1,7 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, Button } from 'react-native';
+import { View } from 'react-native';
 import Body from './components/Body';
 import Header from './components/Header'
+import styles from './styles/styles';
 export default class App extends React.Component {
 
 
@@ -16,22 +17,4 @@ export default class App extends React.Component {
     );
   }
 }
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#fff',
-  },
-  colorInitial: {
-    backgroundColor: '#fff',
-    color: 'red'
-  },
-  image: {
-    width: 150,
-    height: 150,
-  }
-});
 
