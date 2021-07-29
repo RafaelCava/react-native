@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
+import Body from './components/Body';
 import Header from './components/Header'
 export default class App extends React.Component {
 
@@ -9,6 +10,7 @@ export default class App extends React.Component {
       <>
         <View style={styles.container}>
           <Header />
+          <Body />
         </View>
       </>
     );
