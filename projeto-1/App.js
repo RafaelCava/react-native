@@ -4,7 +4,7 @@ import Header from './components/Header'
 export default class App extends React.Component {
 
 
-  render(){
+  render() {
     return (
       <>
         <View style={styles.container}>
@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
     color: 'red'
   },
   image: {
-    width:150,
-    height:150,
+    width: 150,
+    height: 150,
   }
 });
 
