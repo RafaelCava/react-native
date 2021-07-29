@@ -1,13 +1,10 @@
-import { Button, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 import React from 'react';
 
 const Header = () => {
   return (
-    <View>
-      <Text>Hello</Text>
-      <Text>Hello</Text>
-      <Text>Hello</Text>
-      <Button title="hello"></Button>
+    <View style={{ backgroundColor: 'rgb(84, 50, 168)', padding: 20 }}>
+      <Text style={{ color: '#fff' }}>Header</Text>
     </View>
   )
 }
